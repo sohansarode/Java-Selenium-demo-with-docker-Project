@@ -1,0 +1,70 @@
+/.apt_generated/
+/.apt_generated_tests/
+
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+
+# Maven target folder
+/target/
+
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+
+# VSCode settings
+.vscode/
+
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+
+# Log files
+*.log
+LogFiles/
+AppiumLogs/
+
+
+# Test result folders
+test-output/
+Reports/
+Recordings/
+allure-results/
+
+
+# Screenshots (if created later)
+screenshots/
+
+
+# Docker (local overrides only)
+docker-compose.override.yml
+
+
+# Selenium WebDriver binaries (if added)
+chromedriver*
+geckodriver*
+msedgedriver*
+
+
+# Environment / local config overrides
+.env
+config-local.properties
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+# Temporary files
+*.tmp
+*.temp
