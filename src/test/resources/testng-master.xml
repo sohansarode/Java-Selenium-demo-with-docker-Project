@@ -5,6 +5,8 @@
         <suite-file path="regression.xml"/>
         <suite-file path="smoke.xml"/>
         <suite-file path="testng-All_in_one.xml"/>
+        <suite-file path="xml_static_thread_for_jenkins_run/smoke_jenkins.xml"/>
+          <suite-file path="xml_static_thread_for_jenkins_run/regression_jenkins.xml" />
     </suite-files>
 
 </suite>

@@ -148,6 +148,7 @@ Seleniumdemo7_with_docker/
 │   │   │   │          (hard waits and reusable wait logic)
 │   │   │
 │   │   ├── resources/
+
 │   │   │   ├── data/
 │   │   │   │   ├── Excels/
 │   │   │   │   │   ├── file.xlsx
@@ -386,7 +387,7 @@ Change **ONLY these values**:
 
 ```properties
 useSeleniumGrid=yes
-seleniumGridUrl=http://selenium-hub:4444/wd/hub
+seleniumGridUrl=http://selenium-hub:4444
 ```
 
 * Runs inside Docker containers
